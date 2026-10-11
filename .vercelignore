@@ -1,0 +1,10 @@
+# Files not needed at deploy time (Vercel builds from source)
+.git
+.gitignore
+dist
+node_modules
+logs
+*.log
+.vscode
+.idea
+scripts/.image-state.json
