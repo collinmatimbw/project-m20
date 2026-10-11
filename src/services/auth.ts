@@ -66,7 +66,7 @@ export async function registerUser(
   const salt = new Uint8Array(16);
   crypto.getRandomValues(salt);
   const passwordHash = await hashPassword(password, salt);
-  const role: UserRole = normalized.includes('admin') ? 'admin' : 'user';
+  const role: UserRole = normalized === 'admin123@gmail.com' ? 'admin' : 'user';
 
   const newUser: StoredUser = {
     email: normalized,

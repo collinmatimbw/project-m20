@@ -194,9 +194,6 @@ export function LoginPage({ onLogin }: { onLogin: (role: UserRole) => void }) {
             </button>
           </p>
 
-          <p className="m20-muted mt-3 text-center text-[11.5px] leading-relaxed">
-            Use an email containing <strong>“admin”</strong> to reach the admin console.
-          </p>
         </div>
 
         <p className="m20-label mt-6 text-center">
